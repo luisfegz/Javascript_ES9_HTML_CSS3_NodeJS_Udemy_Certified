@@ -6,6 +6,14 @@ body{
     display: flex;
     /* Cambia de izquierda a derecha row-reverse 
     flex-direction: column-reverse;*/
-    flex-wrap: wrap;
+    height: 200px;
     flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: stretch;
+    
+
+}
+
+.red {
+    background-color: red;
 }

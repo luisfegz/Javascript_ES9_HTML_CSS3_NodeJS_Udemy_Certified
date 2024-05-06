@@ -3,6 +3,7 @@
 // * Estos datos sentido entre sí.
 // * Los objetos no tienen variables sino propiedades.
 
+let unNumero = 34;
 //?    Objeto Vacio
 const miPrimerObjeto = {}
 
@@ -13,4 +14,4 @@ const miObjeto = {
     unaCondicion: true,
 }
 
-console.log(miObjeto);
+console.log(miObjeto, unNumero);
